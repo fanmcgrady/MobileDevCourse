@@ -1,8 +1,8 @@
 {
   "pages": [
     "lesson1/index",
-    "example/index1",
     "example/index",
+    "example/index1",
     "example/button/button",
     "example/list/list",
     "example/input/input",

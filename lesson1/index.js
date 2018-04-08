@@ -7,8 +7,7 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    inputValue: ''
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -60,6 +59,11 @@ Page({
   changeHeader: function () {
     this.setData({
       hasUserInfo: !this.data.hasUserInfo
+    })
+  },
+  gotoWebView: function () {
+    wx.navigateTo({
+      url: '../example/index1',
     })
   }
 })
