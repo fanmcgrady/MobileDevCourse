@@ -10,10 +10,7 @@
   </view>
 
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-    <!-- <input type='text' id="input-text"></input> -->
+    <text>{{motto}}</text>
     <button bindtap="changeTest">改变Text</button>
-    <button bindtap="changeHeader">改变头像</button>
-    <button bindtap="bindViewTap">微信官方DEMO</button>
   </view>
 </view>

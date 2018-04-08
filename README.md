@@ -11,5 +11,6 @@
 
 1. 介绍课程整体内容，重点微信移动端开发，课程的要求.
 1. 微信公众号，微信小程序入门.
-1. 介绍HTML，JavaScript，CSS基础知识.
-1. 
+1. 介绍HTML，JavaScript，CSS基础.
+1. 使用web-view标签简单模拟微信小程序HelloWorld程序.
+1. 介绍微信小程序HelloWorld.

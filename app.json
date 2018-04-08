@@ -1,7 +1,7 @@
 {
   "pages": [
-    "example/index1",
     "lesson1/index",
+    "example/index1",
     "example/index",
     "example/button/button",
     "example/list/list",
