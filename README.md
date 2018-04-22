@@ -24,7 +24,7 @@
     * 课程中涉及到的前端网站：http://www.bootcss.com/
 1. 介绍上节课课后意见反馈页面的编写流程，以小程序为例再次演示同样的功能基于小程序的实现.
 
-> lesson1文件夹中，包含了一个基于Weui的“意见反馈页面”的小程序端实现，以及课堂上演示的基于Servlet的一个Java后端Hello World程序（直接使用intellj idea打开这个项目，项目是以工程的形式上传）
+> lesson2文件夹中，包含了一个基于Weui的“意见反馈页面”的小程序端实现，以及课堂上演示的基于Servlet的一个Java后端Hello World程序（直接使用intellj idea打开这个项目，项目是以工程的形式上传）
 
 ## Lesson3
 
