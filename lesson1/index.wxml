@@ -11,6 +11,7 @@
 
   <view class="usermotto">
     <text>{{motto}}</text>
+    <input value='{{motto}}'/>
     <button bindtap="changeTest">改变Text</button>
     <button bindtap="changeHeader">是否显示头像</button>
     <button bindtap="gotoWebView">跳转web-view版本</button>
