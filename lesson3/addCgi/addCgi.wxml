@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- 请求按钮 -->
+    <view class="list">
+        <view class="list-item" bindtap="testCgi">
+            <text>测试 CGI</text>
+        </view>
+        <view class="list-item">
+            <text class="request-text">期望输出：{"code":0,"data":{"msg":"Hello World"}}</text>
+        </view>
+        <view class="list-item" wx:if="{{requestResult}}">
+            <text class="request-text">{{'请求结果：' + requestResult}}</text>
+        </view>
+    </view>
+
+
+</view>
