@@ -5,6 +5,7 @@ Page({
         requestResult: ''
     },
 
+    // 请求接口
     testCgi: function () {
         util.showBusy('请求中...')
         var self = this
