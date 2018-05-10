@@ -36,3 +36,9 @@
    * intellj下如何引入github项目
    * 重新演示如何搭建这个tomcat服务器
    * [git简易使用指南](http://www.bootcss.com/p/git-guide/)
+   
+## Lesson4
+
+1. 展示一个我已经实现的微信公众号黑科技.
+2. 介绍移动终端开发第一章：Android应用设计与开发
+
