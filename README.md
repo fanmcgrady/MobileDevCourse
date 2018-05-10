@@ -40,5 +40,7 @@
 ## Lesson4
 
 1. 展示一个我已经实现的微信公众号黑科技.
-2. 介绍移动终端开发第一章：Android应用设计与开发
-
+1. 展示川大生活服务iOS和Android端代码结构.
+1. 介绍移动终端开发第一章：Android应用设计与开发.
+![lesson4](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson4/lesson.png)
+1. 简单介绍notejs使用，开发一个简单的后台
