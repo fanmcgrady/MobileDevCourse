@@ -49,6 +49,7 @@
 
 1. 小程序使用过程的几个问题：页面见传参，访问网页，全局变量.
 1. 黑科技：深度强化学习（Deep Reinforcement Learning）Hello World.
-    * 机器学习入门资料，[Google InnoCamp](http://innocamp.zucc.edu.cn:3000/)
+    * `Catepole-v0`小杆游戏 Hello World，使用random方法控制小杆平衡，使用强化学习方法控制小杆平衡
+    * 机器学习入门资料，[Google InnoCamp](http://innocamp.zucc.edu.cn:3000/)
 1. 介绍移动终端开发第二章：Android UI技术探究与应用.
 ![lesson5](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson5/lesson5.png)
