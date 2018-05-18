@@ -49,7 +49,84 @@
 
 1. 小程序使用过程的几个问题：页面见传参，访问网页，全局变量.
 1. 黑科技：深度强化学习（Deep Reinforcement Learning）Hello World. 
-   * `Catepole-v0`小杆游戏 Hello World，使用random方法控制小杆平衡，使用强化学习方法控制小杆平衡 
+   * `Catepole-v0`小杆游戏 Hello World，使用random方法控制小杆平衡，使用强化学习方法控制小杆平衡
    * 机器学习入门资料，[Google InnoCamp](http://innocamp.zucc.edu.cn:3000/)
 1. 介绍移动终端开发第二章：Android UI技术探究与应用.
 ![lesson5](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson5/lesson5.png)
+#### 小程序全局变量
+
+微信小程序里面有个app.js，我们可以在这个里面设置全局变量，像酱
+```javascript
+App({  
+     data:{  
+         servsers:"http://192.168.0.253:3000"  
+      }  
+})  
+```
+在外面就这样引用就可以了，这个真的是简单
+```javascript
+getApp().data.servsers
+```
+#### 页面见传参
+```html
+<!-- sample.wxml -->
+<navigator url="../navigator/navigator?title=我是navigate" >跳转到新页面</navigator>    
+<navigator url="../redirect/redirect?title=我是redirect" redirect>在当前页打开</navigator>    
+```
+页面接收参数
+```javascript
+// redirect.js navigator.js
+Page({
+  onLoad: function(options) {
+    this.setData({
+      title: options.title
+    })
+  }
+})
+```
+
+#### RL 示例
+```python
+class randomAgent():
+    """The world's simplest graduation_agent!"""
+
+    def __init__(self, action_space):
+        self.action_space = action_space
+
+    def act(self, observation):
+        return self.action_space.sample()
+
+    def stop_episode(self):
+        pass
+
+    def load(self, model_name):
+        pass
+
+
+# 使用gym的CartPole游戏
+env = gym.make('CartPole-v0')
+
+# 随机的方法创建智能体
+agent = randomAgent(env.action_space)
+
+# 强化学习的方法创建智能体
+# agent = createAgentDQN(env)
+# 现场训练模型
+# trainingAgent(agent, env)
+# 加载训练好的模型
+# agent.load("cart")
+
+# 循环运行10次游戏，对agent进行测试
+for i_episode in range(10):
+    observation = env.reset()
+    R = 0
+    for t in range(200):
+        # env.render()
+        action = agent.act(observation)
+        observation, reward, done, info = env.step(action)
+        R += reward
+        if done:
+            print("{}:Episode finished after {} timesteps, reward {}".format(i_episode, t + 1, R))
+            break
+    agent.stop_episode()
+```
