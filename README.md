@@ -44,3 +44,11 @@
 1. 介绍移动终端开发第一章：Android应用设计与开发.
 ![lesson4](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson4/lesson.png)
 1. 简单介绍notejs使用，开发一个简单的后台
+
+## Lesson5
+
+1. 小程序使用过程的几个问题：页面见传参，访问网页，全局变量.
+1. 黑科技：深度强化学习（Deep Reinforcement Learning）Hello World.
+    * 机器学习入门资料，[Google InnoCamp](http://innocamp.zucc.edu.cn:3000/)
+1. 介绍移动终端开发第二章：Android UI技术探究与应用.
+![lesson5](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson5/lesson5.png)
