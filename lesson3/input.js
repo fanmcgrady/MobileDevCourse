@@ -1,23 +1,17 @@
 var util = require('util.js')
 
 Page({
-  data: { 
-    timestamp: 1526440223416, 
-    signature: "a86f64921a7a2cd8db3a8a7741ef9efdc6bea33d", 
-    nonce: "YdfJSdJBnQKw6YpmNPS5MFHYnHwQbPAZ", 
-    type: 3, 
-    contents: {
-      cardId: '84122070',
-      pwd: "133099"
-      },
-      requestResult:null
-    },
+  data: {
+    x1:1,
+    y1:2
+  },
+  
   // 请求接口
   submit: function () {
     util.showBusy('请求中...')
     var self = this
     wx.request({
-      url: 'https://202.115.35.195/scu/rest', // 接口地址
+      url: 'http://localhost:8080/hello', // 接口地址
       data: self.data,
       header: {
         'content-type': 'application/json' // 默认值
