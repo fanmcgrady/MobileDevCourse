@@ -135,8 +135,11 @@ for i_episode in range(10):
 
 1. 第三章，Android安全开发。介绍如何实现开发过程中的接口加密。 
 ![img](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson6/chapter3.png)
-2. 第四章，终端存储技术。介绍JSON，XML的使用，介绍数据库SQL语句的简单实例。  
+2. 第四章，终端存储技术。介绍JSON，XML的使用，介绍数据库SQL语句的简单实例。 
 ![img](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson6/chapter4.png)
 3. 第五章，终端网络技术。介绍网络协议的基础知识。 
 ![img](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson6/chapter5.png)
 
+```json
+{"type":1,"result":0,"resultCode":"00","resultMsg":"操作成功","timestamp":"1527211424122","signature":"465c193c844531fa47f371e2ece670de22848d09","nonce":"DcfbRC5sTNAAwFFsamKWGNNKxxDBDX7y","cardId":"84122070","days":7,"contents":[{"address":"江安东园一餐厅","amount":"500","charge":"540.0","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-22 12:38:37"},{"address":"江安东园一餐厅","amount":"560.0","charge":"1040.0","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-22 12:38:11"},{"address":"江安东园一餐厅","amount":"560.0","charge":"1600","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-22 12:38:03"},{"address":"校园交通车","amount":"0","charge":"2160.0","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-22 09:10:08"},{"address":"校园交通车","amount":"0","charge":"2160.0","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-18 16:41:36"},{"address":"江安东园一餐厅","amount":"1450.0","charge":"2160.0","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-18 12:22:38"},{"address":"江安东园一餐厅","amount":"588.00","charge":"3610.0","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-18 12:22:20"},{"address":"江安东园一餐厅","amount":"560.0","charge":"4198.00","type":1,"salaryNo":"84122070","dealType":"消费","dealTime":"2018-05-18 12:21:22"}],"startDate":"2018-05-18","endDate":"2018-05-25"}
+```
