@@ -86,10 +86,10 @@
 
 1. 展示我开发的四川大学校内充值APP程序[川大生活服务](https://itunes.apple.com/cn/app/chuan-da-sheng-huo-fu-wu/id1155911714?mt=8)iOS和Android端代码结构.
 
-   ![app](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson4/ecardapp.png)
+   ![app](./lesson4/ecardapp.png)
 
 1. 介绍移动终端开发第一章：Android应用设计与开发.
-  ![lesson4](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson4/lesson.png)
+  ![lesson4](./lesson4/lesson.png)
 
 1. 简单介绍notejs使用，开发一个简单的后台
 
@@ -100,7 +100,7 @@
    * `Catepole-v0`小杆游戏 Hello World，使用random方法控制小杆平衡，使用强化学习方法控制小杆平衡
    * 机器学习入门资料，[Google InnoCamp](http://innocamp.zucc.edu.cn:3000/)
 1. 介绍移动终端开发第二章：Android UI技术探究与应用.
-![lesson5](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson5/lesson5.png)
+![lesson5](./lesson5/lesson5.png)
 #### 小程序全局变量
 
 微信小程序里面有个app.js，我们可以在这个里面设置全局变量，像酱
