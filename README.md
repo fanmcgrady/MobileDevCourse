@@ -83,9 +83,14 @@
 ## Lesson4
 
 1. 展示一个我已经实现的微信公众号黑科技.
-1. 展示川大生活服务iOS和Android端代码结构.
+
+1. 展示我开发的四川大学校内充值APP程序[川大生活服务](https://itunes.apple.com/cn/app/chuan-da-sheng-huo-fu-wu/id1155911714?mt=8)iOS和Android端代码结构.
+
+   ![app](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson4/ecardapp.png)
+
 1. 介绍移动终端开发第一章：Android应用设计与开发.
-![lesson4](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson4/lesson.png)
+  ![lesson4](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson4/lesson.png)
+
 1. 简单介绍notejs使用，开发一个简单的后台
 
 ## Lesson5
