@@ -182,11 +182,11 @@ for i_episode in range(10):
 ## Lesson6
 
 1. 第三章，Android安全开发。介绍如何实现开发过程中的接口加密。 
-![img](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson6/chapter3.png)
+![img](./lesson6/chapter3.png)
 2. 第四章，终端存储技术。介绍JSON，XML的使用，介绍数据库SQL语句的简单实例。 
-![img](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson6/chapter4.png)
+![img](./lesson6/chapter4.png)
 3. 第五章，终端网络技术。介绍网络协议的基础知识。 
-![img](https://github.com/fanmcgrady/MobileDevCourse/blob/master/lesson6/chapter5.png)
+![img](./lesson6/chapter5.png)
 
 #### JSON数据格式
 ```json
