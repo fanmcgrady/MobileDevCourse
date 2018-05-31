@@ -2,12 +2,6 @@
 
 本项目展示了《微信移动终端开发》课程上涉及到的相关代码和课程资源
 
-
-[TOC]
-
-
-## 使用
-
 用[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)打开整个项目，Lesson* 目录里面是每节课涉及到的代码和工程，部分内容可能和小程序工程无关
 
 ## Lesson1
