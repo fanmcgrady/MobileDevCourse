@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/bootstrap/2.0.4/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/2.0.4/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f5f5f5;
+            font-family: 'microsoft yahei'
+        }
+
+        .form-signin {
+            max-width: 300px;
+            padding: 19px 29px 29px;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+            -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+        }
+
+        .form-signin .form-signin-heading,
+        .form-signin .checkbox {
+            margin-bottom: 10px;
+        }
+
+        .form-signin input[type="text"],
+        .form-signin input[type="password"] {
+            font-size: 16px;
+            height: auto;
+            margin-bottom: 15px;
+            padding: 7px 9px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="alert alert-info fade in FONT_MS_YH" id="alertInfo">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Heads up!</strong> 本系统供《微信移动终端开发》课程的同学们填写每节课意见！enjoy it！
+    </div>
+
+    <form action="/hello" method="post" id="commentForm">
+        <div class="form-signin">
+            <h3 class="form-signin-heading">学号</h3>
+            <input type="text" name="studentId" class="input-block-level">
+            <h3 class="form-signin-heading">意见</h3>
+            <textarea rows="3" name="comment" class="input-block-level"></textarea>
+            <input class="btn btn-large btn-primary" type="button" onclick="sendFeedback()" value="提交意见">
+        </div>
+    </form>
+</div>
+
+<script>
+	function sendFeedback() {
+		// get
+//		location.href = "http://localhost:8080/?studentId=12323&comment=saf";
+		// post
+		document.getElementById("commentForm").submit();
+	}
+</script>
+</body>
+</html>

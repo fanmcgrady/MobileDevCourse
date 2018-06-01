@@ -1,0 +1,15 @@
+<view>
+        <view class="weui-cells__title">本节课意见</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea class="weui-textarea" placeholder="请输入文本" style="" value='{{requestResult}}'/>
+                    <view class="weui-textarea-counter">{{currentCount}}/100</view>
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="submit">请求数据</button>
+        </view>
+</view>
